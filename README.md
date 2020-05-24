@@ -63,15 +63,19 @@ https://gitee.com/chenyuhua321/cloud-test/blob/master/conf/lagou.sql
 <video id="video" controls="" preload="none">
     <source src="https://gitee.com/chenyuhua321/cloud-test/raw/master/video/register.flv" >
 </video>
+https://gitee.com/chenyuhua321/cloud-test/raw/master/video/register.flv
 
 #### 2.登录测试
 
  <video src="D:\拉钩作业\cloud-test\video\login.flv"></video>
+https://gitee.com/chenyuhua321/cloud-test/raw/master/video/login.flv
 
 #### 3.token测试
 
 <video src="D:\拉钩作业\cloud-test\video\cookie.flv"></video>
+https://gitee.com/chenyuhua321/cloud-test/raw/master/video/cookie.flv
 
 #### 4.ip防爆刷测试
 
 <video src="D:\拉钩作业\cloud-test\video\ip.flv"></video>
+https://gitee.com/chenyuhua321/cloud-test/raw/master/video/ip.flv
