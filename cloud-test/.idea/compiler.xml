@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-test-common" />
+        <module name="codeserver" />
+        <module name="config-server" />
+        <module name="eureka-server" />
+        <module name="eureka-server-B" />
+        <module name="gateway" />
+        <module name="mail" />
+        <module name="user-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-test-common" target="11" />
+      <module name="codeserver" target="11" />
+      <module name="config-server" target="11" />
+      <module name="eureka-server" target="11" />
+      <module name="eureka-server-B" target="11" />
+      <module name="gateway" target="11" />
+      <module name="lagou-cloud-configserver-9006" target="11" />
+      <module name="lagou-cloud-eureka-server-8761" target="11" />
+      <module name="lagou-cloud-eureka-server-8762" target="11" />
+      <module name="lagou-cloud-hystrix-dashboard-9000" target="11" />
+      <module name="lagou-cloud-hystrix-turbine-9001" target="11" />
+      <module name="lagou-cloud-stream-consumer-9091" target="11" />
+      <module name="lagou-cloud-stream-consumer-9092" target="11" />
+      <module name="lagou-cloud-stream-producer-9090" target="11" />
+      <module name="lagou-parent" target="11" />
+      <module name="lagou-service-autodeliver-8090" target="11" />
+      <module name="lagou-service-autodeliver-8091" target="11" />
+      <module name="lagou-service-autodeliver-8096" target="11" />
+      <module name="lagou-service-common" target="11" />
+      <module name="lagou-service-resume-8080" target="11" />
+      <module name="lagou-service-resume-8081" target="11" />
+      <module name="mail" target="11" />
+      <module name="parent" target="11" />
+      <module name="user" target="11" />
+      <module name="user-server" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="codeserver" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server-B" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="lagou-cloud-configserver-9006" options="-parameters" />
+      <module name="lagou-cloud-eureka-server-8761" options="-parameters" />
+      <module name="lagou-cloud-eureka-server-8762" options="-parameters" />
+      <module name="lagou-cloud-hystrix-dashboard-9000" options="-parameters" />
+      <module name="lagou-cloud-hystrix-turbine-9001" options="-parameters" />
+      <module name="lagou-cloud-stream-consumer-9091" options="-parameters" />
+      <module name="lagou-cloud-stream-consumer-9092" options="-parameters" />
+      <module name="lagou-cloud-stream-producer-9090" options="-parameters" />
+      <module name="lagou-service-autodeliver-8090" options="-parameters" />
+      <module name="lagou-service-autodeliver-8091" options="-parameters" />
+      <module name="lagou-service-autodeliver-8096" options="-parameters" />
+      <module name="lagou-service-common" options="-parameters" />
+      <module name="lagou-service-resume-8080" options="-parameters" />
+      <module name="lagou-service-resume-8081" options="-parameters" />
+      <module name="mail" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="user-server" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/parent/pom.xml" />
+        <option value="$PROJECT_DIR$/codeserver/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudtestcommon/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-B/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-test-common/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/mail/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/parent/user/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/lagou-cloud-configserver-9006/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/lagou-cloud-eureka-server-8761/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/lagou-cloud-eureka-server-8762/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/lagou-cloud-hystrix-dashboard-9000/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/lagou-cloud-hystrix-turbine-9001/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/lagou-cloud-stream-consumer-9091/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/lagou-cloud-stream-consumer-9092/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/lagou-cloud-stream-producer-9090/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/lagou-service-autodeliver-8090/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/lagou-service-autodeliver-8091/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/lagou-service-autodeliver-8096/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/lagou-service-common/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/lagou-service-resume-8080/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/lagou-service-resume-8081/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/code/code/lagou-parent/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

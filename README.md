@@ -1,37 +1,79 @@
 # cloud-test
 
 #### 介绍
-spring cloud联系
+spring cloud练习
 
 #### 软件架构
-软件架构说明
+parent ---基础jar包集合
+
+common ---统一返回参数
+
+code-server ---验证码服务
+
+mail ---邮件服务
+
+user-server--- 用户服务
+
+config-server ---配置中心
+
+eureka-server ---注册中心A
+
+eureka-server-B ---注册中心B
+
+gateway---网关
 
 
-#### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+
+#### 配置说明
+
+**host配置**：
+
+```
+127.0.0.1 EurekaServerA
+127.0.0.1 EurekaServerB
+127.0.0.1 www.test.com
+```
+
+**nginx配置**：
+
+```
+location /static {
+			alias D:/download/5ec3c03c5bb03/assets/log-form/1/;
+            autoindex on;
+		}
+		
+location /api {
+			proxy_pass http://EurekaServerA:9002;
+}
+```
+
+详细可见conf/nginx.conf
+
+**数据库sql配置**：
+
+conf/lagou.sql
+
+
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. #### 注册测试
 
-#### 参与贡献
+   
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+   <video src="D:\拉钩作业\cloud-test\video\register.flv"></video>
 
+#### 2.登录测试
 
-#### 码云特技
+ <video src="D:\拉钩作业\cloud-test\video\login.flv"></video>
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 3.token测试
+
+<video src="D:\拉钩作业\cloud-test\video\cookie.flv"></video>
+
+#### 4.ip防爆刷测试
+
+<video src="D:\拉钩作业\cloud-test\video\ip.flv"></video>
+
+6.  https://gitee.com/gitee-stars/)
