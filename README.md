@@ -60,7 +60,7 @@ https://gitee.com/chenyuhua321/cloud-test/blob/master/conf/lagou.sql
 
 1. #### 注册测试
 
-   <iframe height=498 width=510 src="https://gitee.com/chenyuhua321/cloud-test/blob/master/video/register.flv">
+   <iframe height=498 width=510 src="https://gitee.com/chenyuhua321/cloud-test/raw/master/video/register.flv">
 
    <video src="https://gitee.com/chenyuhua321/cloud-test/blob/master/video/register.flv"></video>
 
