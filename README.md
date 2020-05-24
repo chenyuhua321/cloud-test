@@ -61,7 +61,7 @@ https://gitee.com/chenyuhua321/cloud-test/blob/master/conf/lagou.sql
 1. #### 注册测试
 
 <video id="video" controls="" preload="none">
-    <source id="flv" src="https://gitee.com/chenyuhua321/cloud-test/raw/master/video/register.flv" type="video/flv">
+    <source src="https://gitee.com/chenyuhua321/cloud-test/raw/master/video/register.flv" >
 </video>
 
 #### 2.登录测试
