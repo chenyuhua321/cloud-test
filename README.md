@@ -48,11 +48,11 @@ location /api {
 }
 ```
 
-详细可见conf/nginx.conf
+详细可见https://gitee.com/chenyuhua321/cloud-test/blob/master/conf/nginx.conf
 
 **数据库sql配置**：
 
-conf/lagou.sql
+https://gitee.com/chenyuhua321/cloud-test/blob/master/conf/lagou.sql
 
 
 
@@ -62,7 +62,7 @@ conf/lagou.sql
 
    
 
-   <video src="D:\拉钩作业\cloud-test\video\register.flv"></video>
+   <video src="https://gitee.com/chenyuhua321/cloud-test/blob/master/video/register.flv"></video>
 
 #### 2.登录测试
 
